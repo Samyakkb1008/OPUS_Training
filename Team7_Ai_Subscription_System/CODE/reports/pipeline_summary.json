@@ -1,0 +1,37 @@
+{
+  "project": "AI Subscription & Auto-Debit Intelligence System",
+  "team": "Team 7 -- Mansi & Samyak",
+  "tech_stack": {
+    "NLP": "spaCy + TF-IDF + Logistic Regression",
+    "TimeSeries": "ARIMA(1,0,0) + Linear Regression blend",
+    "ML": "Gradient Boosting Classifier",
+    "GenAI": "Microsoft Phi-2 (rule-based fallback)",
+    "UI": "Streamlit + Plotly",
+    "DataGen": "Faker"
+  },
+  "results": {
+    "total_transactions": 137700,
+    "subscriptions_found": 75428,
+    "recurring_confirmed": 74582,
+    "predictions_made": 3068,
+    "high_risk": 475,
+    "medium_risk": 0,
+    "low_risk": 725,
+    "alerts": 1200
+  },
+  "metrics": {
+    "nlp_accuracy": 0.9981
+  },
+  "brd_compliance": {
+    "FR1": "Synthetic dataset generated (Faker)",
+    "FR2": "Data cleaning complete",
+    "FR3": "NLP accuracy 99.81% (target >90%)",
+    "FR4": "Recurring patterns detected (min 3 occurrences)",
+    "FR5": "ARIMA(1,0,0) + Linear Regression prediction",
+    "FR6": "Gradient Boosting risk scoring (target >85%)",
+    "FR7": "Structured alerts generated (1200 alerts)",
+    "FR8": "Customer insights and monthly spend summary",
+    "FR9": "Streamlit + Plotly interactive dashboard"
+  },
+  "runtime_seconds": 297.9
+}
